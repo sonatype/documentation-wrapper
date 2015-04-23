@@ -1,0 +1,76 @@
+/*
+ Theme Name:   The NEXUS
+ Description:  Sonatype.org/nexus. Child of DW Focus 1.0.8
+ Author:       Scott Zetlan
+ Author URI:   http://www.nimblecommunications.com
+ Template:     dw_focus_1.0.8_theme
+ Version:      1.0.0
+ Text Domain:  thenexus
+*/
+
+
+@import url("../dw_focus_1.0.8_theme/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+p.error
+{
+  background-color: #e4e4e4;
+  padding: 0.5em 1em;
+  color: #e24736;
+}
+
+.entry-content a {
+	color: #BC360A !important;
+}
+
+/*from template.css*/
+.btn-danger{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#E96D00;background-image:-moz-linear-gradient(top, #E96D00, #E96D00);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#E96D00), to(#E96D00));background-image:-webkit-linear-gradient(top, #E96D00, #E96D00);background-image:-o-linear-gradient(top, #E96D00, #E96D00);background-image:linear-gradient(to bottom, #E96D00, #E96D00);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffE96D00', endColorstr='#ffE96D00', GradientType=0);border-color:#E96D00 #E96D00 #b71a0e;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);*background-color:#E96D00;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false)}
+.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.btn-danger.disabled,.btn-danger[disabled]{color:#fff;background-color:#E96D00;*background-color:#e72112}
+.btn-group.open .btn-danger.dropdown-toggle{background-color:#E96D00}
+a:hover{color:#E96D00}  
+blockquote.red:before,blockquote.red strong{color:#E96D00}
+.btn-primary:hover{color:#fff;background:#E96D00;border-color:#E96D00}
+.btn-danger{border-color:#E96D00}
+.label-important,.badge-important{background-color:#E96D00}
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover{color:#fff;position:relative;background:#E96D00 !important;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.nav-tabs>.active>a:before,.nav-tabs>.active>a:hover:before{border-left:6px solid transparent;border-right:6px solid transparent;border-top:6px solid #E96D00;bottom:-6px;content:"";height:0;left:50%;margin-left:-6px;position:absolute;width:0}
+.navbar .nav li a:hover,.navbar .nav li a:active,.navbar .nav li a:focus{color:#E96D00}
+.navbar .nav .current_page_item>a,.navbar .nav .current-menu-item>a,.navbar .nav .current-post-ancestor>a,.navbar .nav .current-menu-parent>a,.navbar .nav .current-menu-ancestor>a{color:#E96D00}
+.navbar .nav>li>.sub-menu{clip:rect(0, 1000px, 0, 0);*clip:rect(0 1000px 0 0);z-index:1001;position:absolute;background:#fff;margin-left:-1px;border:1px solid #ddd;padding:10px 0;-webkit-box-shadow:0 10px 10px rgba(0,0,0,0.15);-moz-box-shadow:0 10px 10px rgba(0,0,0,0.15);box-shadow:0 10px 10px rgba(0,0,0,0.15)}
+.navbar .nav .menu-parent-item:hover>.sub-menu{clip:rect(0, 1000px, 1000px, -1000px);*clip:rect(0 1000px 1000px -1000px);-webkit-transition:clip 1s;-moz-transition:clip 1s;-o-transition:clip 1s;transition:clip 1s}
+.navbar .nav .menu-item-object-category .sub-mega-wrap{clip:rect(0, 1000px, 0, 0);*clip:rect(0 1000px 0 0);z-index:1001;position:absolute;width:500px;overflow:hidden;background:#fff;margin-left:-1px}
+.navbar .nav .menu-item-object-category h5{color:#fff !important;font-family:"NovecentowideNormalRegular",Georgia,"Times New Roman",Times,serif;font-size:11px;margin-top:5px;background:#E96D00;display:inline-block;line-height:1;padding:10px}
+.navbar .nav .menu-parent-item:hover .sub-mega-wrap{clip:rect(0, 1000px, 1000px, 0);*clip:rect(0 1000px 1000px 0);border:1px solid #ddd;-webkit-transition:clip 1s;-moz-transition:clip 1s;-o-transition:clip 1s;transition:clip 1s;-webkit-box-shadow:0 10px 10px rgba(0,0,0,0.15);-moz-box-shadow:0 10px 10px rgba(0,0,0,0.15);box-shadow:0 10px 10px rgba(0,0,0,0.15)}
+.site-header #header{margin: 0 0 20px 0;height: 111px;padding: 20px 0;background: url('/nexus/content/uploads/2014/09/thenexus-header-final2.jpg');}
+.site-header #branding a{display:block;text-indent:-9999px;background-image:url(../img/logo.png);background-image:none !important;background-repeat:no-repeat;background-position:left center !important;height:90px;width:230px;-webkit-background-size:100%;-moz-background-size:100%;-o-background-size:100%;background-size:100%}
+.ie8.desktop .top-news .dropdown-menu a:hover,.ie8.desktop .top-news .dropdown-menu a:active,.ie8.desktop .top-news .dropdown-menu a:focus{background:transparent;color:#E96D00}
+.ie8.desktop .top-news .entry-meta{background:#E96D00;color:#fff;display:inline-block;line-height:1;padding:10px;margin-bottom:10px;font-size:11px}
+#colophon #site-info .small-logo{display:block;text-indent:-9999px;background:url(../img/logo-small.png) no-repeat right center;background-image: none !important;height:40px;width:100px;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s;-webkit-background-size:100% auto;-moz-background-size:100% auto;-o-background-size:100% auto;background-size:100% auto}
+#colophon.dark{color:#888}
+#colophon.dark a{color:#bbb}
+#colophon.dark #site-info .small-logo{background-image:url(../img/logo-small-dark.png);background-image:none !important;}
+#comments #respond .required{top:50%;right:6px;font-size:20px;color:#E96D00}
+#comments #respond #submit:hover{background-color:#E96D00;border:1px solid #E96D00}
+.news-slider .carousel .carousel-inner .entry-category{position:absolute;font-family:"NovecentowideNormalRegular",Georgia,"Times New Roman",Times,serif;font-size:11px;color:#fff;padding:10px;line-height:1;background:#E96D00}
+.news-slider .carousel-list .other-entry li.active{border-left:5px solid #E96D00;overflow:hidden}
+.pagination ul>li .current{background:#E96D00;border-color:#E96D00;color:#fff}
+.home .site-content .content-inner .entry-meta a:hover{color:#E96D00}
+.archive .post-layout a.active{background:#E96D00;border-color:#E96D00 !important}
+.archive .content-inner .entry-meta a:hover{color:#E96D00}
+.ie8.archive .content-inner.layout-grid .hentry:first-child .entry-thumbnail .entry-header a{color:#E96D00}
+body.error404{height:100%;background:url(../img/logo-404.png) no-repeat right bottom;background-image:none !important;}
+body.error404 .entry-content h2{font-size:110px;line-height:80px;font-family:'NovecentowideBookBold',Georgia,"Times New Roman",Times,serif;color:#E96D00}
+
+/*from responsive.css*/
+.site-header #header{/*background:none*/background-size:100%;background-repeat:no-repeat;height:auto;min-height:45px;}
+.site-header #header #branding h1{margin:0 0 20px;/*border-bottom:1px solid #ddd;*/padding:0 0 20px !important;width:100%}
+.site-header #header #sidebar-header{/*clear:both*/}
+.site-header #header #branding{/*width:930px !important*/}
+.site-header #header #sidebar-header{/*width:930px !important;*/position:relative}
+.wrap-navigation .small-logo{background:url("../img/logo-small-dark.png") center no-repeat;background-image:none !important;display:block;height:40px;text-indent:-9999px;width:100%;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s;-webkit-background-size:auto 60%;-moz-background-size:auto 60%;-o-background-size:auto 60%;background-size:auto 60%}
+
+/*from colors*/
+.color-category .site-header #branding a{background-image:url(img/logo.png);background-image:none}

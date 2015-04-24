@@ -7,7 +7,7 @@
  Version:      1.0.0
  Text Domain:  thenexus
 */
-@import url("css/dw_focus_1.0.8_theme-style.css");
+
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
@@ -171,7 +171,7 @@ blockquote.red:before, blockquote.red strong {
   height: 111px;
   padding: 20px 0;
   background:
-    url('/nexus/content/uploads/2014/09/thenexus-header-final2.jpg');
+    url('../images/thenexus-header-final2.jpg');
 }
 
 .site-header #branding a {

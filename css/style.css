@@ -177,10 +177,6 @@ blockquote.red:before, blockquote.red strong {
 .site-header #branding a {
   display: block;
   text-indent: -9999px;
-  background-image: url(../img/logo.png);
-  background-image: none !important;
-  background-repeat: no-repeat;
-  background-position: left center !important;
   height: 90px;
   width: 230px;
   -webkit-background-size: 100%;
@@ -208,8 +204,6 @@ blockquote.red:before, blockquote.red strong {
 #colophon #site-info .small-logo {
   display: block;
   text-indent: -9999px;
-  background: url(../img/logo-small.png) no-repeat right center;
-  background-image: none !important;
   height: 40px;
   width: 100px;
   -webkit-transition: opacity .5s;
@@ -228,11 +222,6 @@ blockquote.red:before, blockquote.red strong {
 
 #colophon.dark a {
   color: #bbb
-}
-
-#colophon.dark #site-info .small-logo {
-  background-image: url(../img/logo-small-dark.png);
-  background-image: none !important;
 }
 
 #comments #respond .required {
@@ -289,8 +278,6 @@ blockquote.red:before, blockquote.red strong {
 
 body.error404 {
   height: 100%;
-  background: url(../img/logo-404.png) no-repeat right bottom;
-  background-image: none !important;
 }
 
 body.error404 .entry-content h2 {
@@ -328,8 +315,6 @@ body.error404 .entry-content h2 {
 }
 
 .wrap-navigation .small-logo {
-  background: url("../img/logo-small-dark.png") center no-repeat;
-  background-image: none !important;
   display: block;
   height: 40px;
   text-indent: -9999px;
@@ -346,6 +331,4 @@ body.error404 .entry-content h2 {
 
 /*from colors*/
 .color-category .site-header #branding a {
-  background-image: url(img/logo.png);
-  background-image: none
 }

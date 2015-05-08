@@ -432,38 +432,30 @@ table.advisory-disabled #advisory-disabled {
           <section id="text-4" class="widget widget_text">
             <div class="textwidget">
               <!-- SUPPORT IMAGES AND LINKS -->
-              <table border="0" cellpadding="10" cellspacing="0"
-                width="100%">
+              <table border="0" cellpadding="10" cellspacing="0" width="100%">
 
                 <!-- BLACK AND WHITE HEADER -->
                 <tbody>
                   <tr bgcolor="black">
-                    <td><span style="color: white; font-weight: bold">${bookTitle}</span></td>
+                    <td><span style="color: white; font-weight: bold">Search Results: ${bookTitle}</span></td>
                   </tr>
                   <tr style"border-bottom:1px="" solid=""#000"="">
-                    <!-- KNOWLEDGE BASE -->
                     <td>
                       <div class="search-results">
-                       <script>
-                        (function() {
+                        <script>
+                          (function() {
                             var cx = '017156762307045728421:e5xgzsj0rjw';
                             var gcse = document.createElement('script');
                             gcse.type = 'text/javascript';
                             gcse.async = true;
                             gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                              '//www.google.com/cse/cse.js?cx=' + cx;
+                                '//www.google.com/cse/cse.js?cx=' + cx;
                             var s = document.getElementsByTagName('script')[0];
                             s.parentNode.insertBefore(gcse, s);
                           })();
-                      </script>
-                      <gcse:searchbox-only resultsUrl="./search.html"></gcse:searchbox-only>
+                        </script>
+                        <gcse:search></gcse:search>
                       </div>
-                    </td>
-                  </tr>
-                  <tr style"border-bottom:1px="" solid=""#000"="">
-                    <!-- KNOWLEDGE BASE -->
-                    <td>
-                        ${body}
                     </td>
                   </tr>
                 </tbody>

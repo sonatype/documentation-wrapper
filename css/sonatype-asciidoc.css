@@ -82,3 +82,32 @@
 .note h3 {
   color: #91c89c;
 }
+
+/* --- Sub Nav Styling --- */
+
+#nav-sub-block {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+ul#nav-sub  {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+}
+
+ul#nav-sub li {
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    font-size:13px;
+}
+
+ul#nav-sub li.first {
+  float:left; 
+}
+ul#nav-sub li.last {
+  float:right;  
+}

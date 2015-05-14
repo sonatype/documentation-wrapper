@@ -3,7 +3,6 @@
  *
  */
  
- 
 .warning {
   background: #fff8f7;
   border: 2px solid #ccc;
@@ -111,3 +110,39 @@ ul#nav-sub li.first {
 ul#nav-sub li.last {
   float:right;  
 }
+
+
+.preface a, .preface a:hover {
+  font-size: 18px;
+  color: #135678 !important;
+  text-decoration: none;
+}
+
+.chapter a, .chapter a:hover {
+  font-size: 14px;
+  font-style:bold;
+  color: #135678 !important;  
+  text-decoration: none;
+}
+
+.section a, .section a:hover {
+  font-size: 14px;
+  font-style:bold;
+}
+
+.book .titlepage h1.title {
+  color: #000;
+  font-size: 28px;
+}
+
+
+.book .titlepage hr {
+  display: none;
+}
+
+.toc_intro {
+  margin-top: 20px;
+  float: left;
+  text-align: justify;
+}
+

@@ -113,12 +113,12 @@ ul#nav-sub li.last {
 
 
 .preface a, .preface a:hover {
-  font-size: 18px;
+  font-size: 22px;
   text-decoration: none;
 }
 
 .chapter a, .chapter a:hover {
-  font-size: 14px;
+  font-size: 18px;
   font-style:bold;
   text-decoration: none;
 }
@@ -129,13 +129,9 @@ ul#nav-sub li.last {
 }
 
 .book .titlepage h1.title {
-  font-size: 28px;
+  font-size: 40px;
 }
 
-
-.book .titlepage hr {
-  display: none;
-}
 
 .toc_intro {
   margin-top: 20px;

@@ -114,14 +114,12 @@ ul#nav-sub li.last {
 
 .preface a, .preface a:hover {
   font-size: 18px;
-  color: #135678 !important;
   text-decoration: none;
 }
 
 .chapter a, .chapter a:hover {
   font-size: 14px;
   font-style:bold;
-  color: #135678 !important;  
   text-decoration: none;
 }
 
@@ -131,7 +129,6 @@ ul#nav-sub li.last {
 }
 
 .book .titlepage h1.title {
-  color: #000;
   font-size: 28px;
 }
 
@@ -144,5 +141,9 @@ ul#nav-sub li.last {
   margin-top: 20px;
   float: left;
   text-align: justify;
+}
+
+a {
+  color: #BC360A; 
 }
 

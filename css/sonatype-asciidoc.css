@@ -2,7 +2,7 @@
  * Sonatype Asciidoc Template
  *
  */
- 
+
 .warning {
   background: #fff8f7;
   border: 2px solid #ccc;
@@ -147,3 +147,9 @@ a {
   color: #BC360A; 
 }
 
+.titleBar {
+  color: white;
+  font-weight: bold; 
+  font-size: 24px;
+  
+}

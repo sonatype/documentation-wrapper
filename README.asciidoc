@@ -1,0 +1,3 @@
+== Documentation Wrapper
+
+A HTML wrapper with the look and feel of the Nexus community site, used by the books Maven by Example and Maven: The Complete Reference.
